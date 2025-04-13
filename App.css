@@ -1,0 +1,39 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 20px;
+}
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #25d366;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1ebe5d;
+}
+.result {
+  margin-top: 20px;
+}
+.result input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
